@@ -13,14 +13,6 @@ body {
   width: 24px;
 }
 
-/*.nav-menu .st0 {
-  transition: .5s;
-}
-
-.nav-menu:hover .st0 {
-  fill: #111;
-}*/
-
 .logo {
   width: 140px;
   height: 120px;
@@ -29,6 +21,7 @@ body {
 .logo-text {
   display: none;
 }
+
 #container {
   max-width: 960px;
   background: #fff;
@@ -50,10 +43,14 @@ a {
   a:hover {
     color: #111;
   }
+
   /*a:hover .nav-menu .st0 {
     fill: #111;
   }*/
 
+.main-nav ul {
+  min-width: 316px;
+}
 .main-nav li a,
 .main-nav li .nav-menu .st0 {
   transition: .3s;
