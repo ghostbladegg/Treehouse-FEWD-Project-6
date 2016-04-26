@@ -9,8 +9,19 @@ body {
   background-size: 53px 50px;
 }
 
-.nav-menu {
+#home-nav,
+#contact-nav {
+  width: 28px;
+}
+
+#loc-nav {
   width: 24px;
+}
+
+#home-nav,
+#loc-nav,
+#contact-nav {
+  height: 24px;
 }
 
 .logo {
